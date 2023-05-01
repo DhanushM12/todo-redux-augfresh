@@ -8,7 +8,7 @@ class TaskInput extends Component {
     return (
       <div>
         <input type='text' placeholder='Add a task' ref='task'/>
-        <button onClick={()=> this.props.addTask(this.refs.task.value)}></button>
+        <button onClick={()=> this.props.addTask(this.refs.task.value)}>Add</button>
       </div>
     )
   }

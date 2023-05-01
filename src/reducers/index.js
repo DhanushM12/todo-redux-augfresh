@@ -13,7 +13,7 @@ const taskReducers = (state = [], action) => {
 }
 
 const reducers = combineReducers({
-    task: taskReducers
+    tasks: taskReducers
 })
 
 export default reducers;
